@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #163172;
+  padding: 14px 32px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.AppName {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #d6e4f0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #818cf8;
+}
+
+.login-pill {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px 18px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.login-pill:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.user-nav-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-welcome {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  color: #d6e4f0;
+}
+
+.logout-btn:hover {
+  color: #818cf8;
+}
